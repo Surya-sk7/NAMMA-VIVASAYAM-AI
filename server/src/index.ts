@@ -73,7 +73,7 @@ app.use((_req, res) => {
 });
 
 // --- Start ---
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`\n🌾 NammaVivasayam AI API Server`);
   console.log(`   Running on http://localhost:${PORT}`);
   console.log(`   Health: http://localhost:${PORT}/api/health`);
